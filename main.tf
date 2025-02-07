@@ -10,6 +10,6 @@ terraform {
   }
 }
 resource "aws_s3_bucket" "example" {
-bucket = "jenkins-state-dan-forsythe"
+bucket = "jenkins-test-bucket-dan-forsythe123"
 acl    = "private"
 }
